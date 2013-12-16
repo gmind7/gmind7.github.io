@@ -1,4 +1,6 @@
 gmind7.github.io
 ================
 
-blog
+Daesung Kim Resume
+
+아직 개발 중 입니다.
