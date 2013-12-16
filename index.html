@@ -1,74 +1,497 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>DasungKim - Java Software Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Gmind7.github.io : blog" />
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Gmind7.github.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/gmind7">View on GitHub</a>
-
-          <h1 id="project_title">Gmind7.github.io</h1>
-          <h2 id="project_tagline">blog</h2>
-
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
+</head>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                    Daesung Kim
+                </h2>
+                <h4>
+                    Java Software Developer
+                </h4>
+            </div>
         </header>
-    </div>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#resume"><i class="icon-file-text"></i><span> Resume</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#portfolio"><i class="icon-heart"></i><span> Portfolio</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="https://0.gravatar.com/avatar/58e185e84d9e96e5133153c9227a7678?d=https%3A%2F%2Fidenticons.github.com%2F23357ff134685c71ad813a6d4b71699c.png&r=x&s=440" alt="Sunny Luthra">
+                            </div>
+                            <div class="info">
+                                <h2>
+                                    Daesung Kim
+                                </h2>
+                                <h4>
+                                    Java Software Developer
+                                </h4>
+                                <p>
+                                    자바 개발자로 2001.09 부터 SI, SM, Solution, Portal, Game 회사에서 근무 하였으며 다양한 오픈 소스에 관심이 많으며 언제나 이 일을 사랑하는 개발자로 살고 싶습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    <li>
+                                        <a href="#resume">View My Resume</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio">My Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Hire me for your next project</a>
+                                    </li>
+                                    <li>
+                                        <a href="#features">Features</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-envelope"></i>
+                              <div class="item-data">
+                                <h3><a href="mailto:gmind7@gmail.com">gmind7@gmail.com</a></h3>
+                                <p>Email Address</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-facebook"></i>
+                              <div class="item-data">
+                                <h3><a href="http://www.facebook.com/gmindk">gmind7</a></h3>
+                                <p>Facebook Profile</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-github"></i>
+                              <div class="item-data">
+                                <h3><a href="https://github.com/gmind7?tab=repositories">gmind7</a></h3>
+                                <p>Github Repositories</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <h3>
+                                Work Experience
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        NCSOFT (Game)
+                                    </h5><span class="label label-danger">2011.05 - Till Death</span>
+                                    <p>
+                                        - Blase&Soul Gamer SNS Sandbox
+                                    </p>
+									<p>
+                                        - Plaync Notification
+                                    </p>
+									<p>
+                                        - NCSOFT Mobile Game Platform
+                                    </p>
+									<p>
+                                        - NCSOFT Deployment Tool
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Freechal (Portal)
+                                    </h5><span class="label label-info">2010.05-2011.03</span>
+                                    <p>
+                                        - 시험1번가 입시 포털 서비스
+                                    </p>
+									<p>
+                                        - IAM 개인화 블로그 서비스
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        HCG (Solution)
+                                    </h5><span class="label label-info">2008.08 - 2010.04</span>
+                                    <p>
+                                        - e-HR 인사관리솔루션 
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Pentacreed (SM)
+                                    </h5><span class="label label-info">2007.05 - 2008.07</span>
+                                    <p>
+                                        - 삼성SDS 멀티캠퍼스 교육통합관리 시스템
+                                    </p>
+                                </li>
+								<li>
+                                    <h5>
+                                        MCST (SI)
+                                    </h5><span class="label label-info">2001.09 - 2007.04</span>
+                                    <p>
+                                        - 한전 및 발전 자회사 전자화문서관리시스템
+                                    </p>
+									<p>
+                                        - 한전 및 발전 자회사 전자책ebook솔루션
+                                    </p>
+									<p>
+                                        - 한전 및 발전 자회사 연구개발관리시스템
+                                    </p>
+                                </li>
+                            </ul>
+                            <h3>
+                                Education
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        동양미래대학교(소프트웨어정보과)
+                                    </h5><span class="label label-success">2003.03 - 2006.02</span>
+                                    <p>
+                                        시스템프로그래밍, 데이터베이스 및 네트워크 프로그래밍을 중심의 학부 과정 졸업 
+                                    </p>
+                                </li>
+                            </ul>
+							<h3>
+                                Military Service
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        대한민국 육군 병장 제대
+                                    </h5><span class="label label-success">1998.11 - 2001.02</span>
+									<p>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="g1">
+                            <div class="sidebar">
+                                <h3>
+                                    Skills
+                                </h3>
+								<h5>
+                                    Programming Language
+                                </h5>
+                                <div class="meter wisteria">
+                                    <span style="width: 100%"><span>Java</span></span>
+                                </div>
+								<div class="meter sunflower">
+                                    <span style="width: 40%"><span>Groovy</span></span>
+                                </div>
+                                <div class="meter midnight">
+                                    <span style="width: 30%"><span>Python</span></span>
+                                </div>
+								<div class="break"></div>
+								<h5>
+                                    Spring Framework
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 100%"><span>Spring-MVC</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>Spring-Batch</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 60%"><span>Spring-Security</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 55%"><span>Spring-Integration</span></span>
+                                </div>
+                                <div class="meter midnight">
+                                    <span style="width: 50%"><span>Spring-Boot</span></span>
+                                </div>
+                                <div class="meter pomengrate">
+                                    <span style="width: 95%"><span>Spring-Data-JPA</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 80%"><span>Spring-Data-Redis</span></span>
+                                </div>
+								<div class="meter emerald">
+                                    <span style="width: 50%"><span>Spring-Data-Rest</span></span>
+                                </div>
+								<div class="meter carrot">
+                                    <span style="width: 90%"><span>Spring-Insight</span></span>
+                                </div>
+								<div class="break"></div>
+								<h5>
+                                    Java Supporting
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 90%"><span>JPA/Hiberante</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 95%"><span>Mybatis/Ibatis</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 90%"><span>Tiles/Thymleaf</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 80%"><span>Commons/Guava/Lombok</span></span>
+                                </div>
+                                <div class="meter midnight">
+                                    <span style="width: 90%"><span>QueryDSL</span></span>
+                                </div>
+                                <div class="meter pomengrate">
+                                    <span style="width: 60%"><span>Hateoas</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 70%"><span>HibernateValidation</span></span>
+                                </div>
+								<div class="meter carrot">
+                                    <span style="width: 90%"><span>Logback</span></span>
+                                </div>
+								<div class="break"></div>
+								<h5>
+                                    Develop Server
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 95%"><span>Tomcat/Apache/Nginx</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 92%"><span>Memcached/Ehcache</span></span>
+                                </div>
+								<div class="meter wisteria">
+                                    <span style="width: 80%"><span>RabbitMQ/ActiveMQ</span></span>
+                                </div>
+								<div class="meter sunflower">
+                                    <span style="width: 80%"><span>Zookeeper</span></span>
+                                </div>
+								<div class="meter midnight">
+                                    <span style="width: 70%"><span>Redis</span></span>
+                                </div>
+								<div class="meter pomengrate">
+                                    <span style="width: 50%"><span>Infispan</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 80%"><span>MySQL/Oracle</span></span>
+                                </div>
+                                <div class="break"></div>
+								<h5>
+                                    Build Automation
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 95%"><span>Gradle</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 85%"><span>Maven</span></span>
+                                </div>
+                                <div class="break"></div>
+								<h5>
+                                    Supporting Server
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 100%"><span>Jenkins(CI)</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 100%"><span>Rundeck(Deploy)</span></span>
+                                </div>
+								<div class="meter wisteria">
+                                    <span style="width: 100%"><span>Nexus</span></span>
+                                </div>
+								<div class="meter sunflower">
+                                    <span style="width: 90%"><span>Sonar</span></span>
+                                </div>
+								<div class="meter midnight">
+                                    <span style="width: 70%"><span>Box Anemometer</span></span>
+                                </div>
+								<div class="meter pomengrate">
+                                    <span style="width: 100%"><span>Gitlab/Stash</span></span>
+                                </div>
+								<div class="meter asbestos">
+                                    <span style="width: 100%"><span>Jira/Redmine/confluence</span></span>
+                                </div>
+								<div class="break"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Portfolio Tab Data -->
+                <div id="portfolio">
+                    <section class="clearfix">
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/sandbox.jpg" alt="NCSOFT Sandbox">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://sandbox.plaync.com/lyn/my/timeline/wall" class="btn">NCSOFT SNS Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/1sttest.jpg" alt="Freechal 1sttest">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="#" class="btn">Freechal Site Closed View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/multicampus.jpg" alt="bns sandbox">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://sandbox.plaync.com/lyn/my/timeline/wall" class="btn">SDS Multicampus Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+						<div class="g1">
+                            <div class="image">
+                                <img src="images/hunel.jpg" alt="HCG Hunel">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://www.hunel.co.kr/function/function01.html" class="btn">e-HR Solution Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/sandbox.jpg" alt="bns sandbox">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://sandbox.plaync.com/lyn/my/timeline/wall" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/sandbox.jpg" alt="bns sandbox">
+                                <div class="image-overlay">
+                                    <div class="image-link">
+                                        <a href="http://lorempixel.com/606/606/business/2" class="btn">Full View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="break"></div>
+                    </section>
+                </div>
+              <!-- End Portfolio Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>My Address</h4>
+                              <p>대한민국 서울</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-phone"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>LinkedIn</h4>
+                              <p><a href="http://kr.linkedin.com/pub/대성-김/87/3/370/" title="daesungkim linkedin">김대성</a></p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>About Me</h4>
+                              <p>사람이 이해 할 수 없는 코드, 읽기 싫은 코드가 똥 싼 코드라는 것을 아는 개발자 입니다.</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+                       
+                    </section>
+                </div>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+        <!-- End Tab Container -->
+        <footer>
+            <p>
+                © 2013 Daesung Kim Resume, All rights reserved.
+            </p>
+        </footer>
+    </div><!-- #main -->
+</div><!-- #main-container -->
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+</body>
 </html>
